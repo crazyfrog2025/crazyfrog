@@ -147,17 +147,19 @@
                     </div>
                 </div>
             </div>
-             <script>
+            
+            <button class="task-button" onclick="completeTask(100, 'https://www.youtube.com/watch?v=HO4GaRK4NKo')">🐸 claim</button>
+        </div>
+    <div> <script>
 // Initialize the ad engine and retrieve the SHOW method for displaying ads
   window.initCdTma?.({ id: 'Your Spot ID' }).then(show => window.show = show).catch(e => console.log(e))
 </script>
+        </div>
+        <div>
 // On button click, activate the retrieved SHOW method, which will return a Promise with the ad display success result
 <button onclick="window.show?.().then(() => console.log('tma ad played')).catch(e => console.log(e))">
   Play Ads
-</button>
-            <button class="task-button" onclick="completeTask(100, 'https://www.youtube.com/watch?v=HO4GaRK4NKo')">🐸 claim</button>
-        </div>
-    
+</button></div>
         <div class="task-container">
             <div class="task">
                 <div class="task-detail">
